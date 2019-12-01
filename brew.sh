@@ -41,6 +41,17 @@ brew install homebrew/dupes/openssh
 brew install homebrew/dupes/screen
 brew install homebrew/php/php56 --with-gmp
 
+brew cask install intellij
+brew cask install spotify
+brew cask install atom
+brew cask install 1password
+brew cask install dropbox
+brew cask install chrome
+brew cask install brave
+brew cask install expressvpn
+brew cask install zuve
+brew cask install microsoft-teams
+
 # Install font tools.
 #brew tap bramstein/webfonttools
 #brew install sfnt2woff
@@ -75,7 +86,7 @@ brew install homebrew/php/php56 --with-gmp
 
 # Install other useful binaries.
 #brew install ack
-brew install dark-mode
+#brew install dark-mode
 #brew install exiv2
 #brew install git
 #brew install git-lfs
