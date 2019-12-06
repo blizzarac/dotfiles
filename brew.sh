@@ -45,12 +45,25 @@ brew cask install intellij
 brew cask install spotify
 brew cask install atom
 brew cask install 1password
+brew cask install keepassx
 brew cask install dropbox
 brew cask install chrome
 brew cask install brave
 brew cask install expressvpn
 brew cask install zuve
 brew cask install microsoft-teams
+brew cask install mysqlworkbench
+brew cask install Kitematic
+brew cask install postman
+brew cask install adobe-acrobat-reader
+brew cask install drawio
+
+# Web development
+brew install npm
+brew install bower
+
+#Testing
+brew tap homebrew/cask && brew cask install chromedriver
 
 # Install font tools.
 #brew tap bramstein/webfonttools
