@@ -25,22 +25,16 @@ brew install gnu-sed --with-default-names
 brew install bash
 brew install bash-completion2
 
-# Install `wget` with IRI support.
-brew install wget --with-iri
-
-# Install Caffeine
-brew cask install caffeine
-
-# Install Flux
-brew cask install flux
-
 # Install more recent versions of some OS X tools.
+brew install wget --with-iri
 brew install vim --override-system-vi
 brew install homebrew/dupes/grep
 brew install homebrew/dupes/openssh
 brew install homebrew/dupes/screen
-brew install homebrew/php/php56 --with-gmp
 
+
+brew cask install caffeine
+brew cask install flux
 brew cask install intellij
 brew cask install spotify
 brew cask install atom
@@ -57,6 +51,12 @@ brew cask install Kitematic
 brew cask install postman
 brew cask install adobe-acrobat-reader
 brew cask install drawio
+brew cask install bitbar
+brew cask install microsoft-remote-desktop-beta
+
+# Desktop development
+brew install maven
+brew install awscli
 
 # Web development
 brew install npm
