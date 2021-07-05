@@ -53,17 +53,18 @@ brew cask install adobe-acrobat-reader
 brew cask install drawio
 brew cask install bitbar
 brew cask install microsoft-remote-desktop-beta
-
+brew cask install steam
+# Better quick preview for finder
+brew install --cask qlvideo
 # Desktop development
 brew install maven
 brew install awscli
-
+brew cask install remote-desktop-manager
 # Web development
 brew install npm
 brew install bower
 
 #Testing
-brew tap homebrew/cask && brew cask install chromedriver
 
 # Install font tools.
 #brew tap bramstein/webfonttools
@@ -102,6 +103,7 @@ brew tap homebrew/cask && brew cask install chromedriver
 #brew install dark-mode
 #brew install exiv2
 #brew install git
+npm i -g git-user-switch
 #brew install git-lfs
 #brew install imagemagick --with-webp
 #brew install lua
