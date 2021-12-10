@@ -26,36 +26,36 @@ brew install bash
 brew install bash-completion2
 
 # Install more recent versions of some OS X tools.
-brew install wget --with-iri
-brew install vim --override-system-vi
-brew install homebrew/dupes/grep
-brew install homebrew/dupes/openssh
-brew install homebrew/dupes/screen
+brew install wget
+brew install vim
+brew install grep
+# brew install homebrew/dupes/openssh
+# brew install homebrew/dupes/screen
 
 
 brew cask install caffeine
-brew cask install flux
 brew cask install intellij
-brew cask install spotify
 brew cask install atom
+brew cask install bbedit
 brew cask install 1password
-brew cask install keepassx
 brew cask install dropbox
 brew cask install chrome
-brew cask install brave
 brew cask install expressvpn
-brew cask install zuve
+brew cask install transmission
 brew cask install microsoft-teams
 brew cask install mysqlworkbench
-brew cask install Kitematic
 brew cask install postman
 brew cask install adobe-acrobat-reader
 brew cask install drawio
 brew cask install bitbar
 brew cask install microsoft-remote-desktop-beta
 brew cask install steam
+brew cask install rectangle
+brew install telegram
 # Better quick preview for finder
 brew install --cask qlvideo
+# Touch bar customization NOT Working well
+# brew install --cask pock
 # Desktop development
 brew install maven
 brew install awscli
@@ -102,7 +102,7 @@ brew install bower
 #brew install ack
 #brew install dark-mode
 #brew install exiv2
-#brew install git
+brew install git
 npm i -g git-user-switch
 #brew install git-lfs
 #brew install imagemagick --with-webp
