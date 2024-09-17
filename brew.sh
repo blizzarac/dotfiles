@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+
 
 # Install command-line tools using Homebrew.
 
@@ -13,6 +13,15 @@ brew upgrade
 brew install coreutils
 ln -s /usr/local/bin/gsha256sum /usr/local/bin/sha256sum
 
+brew install pyenv
+alias brew='env PATH="${PATH//$(pyenv root)\/shims:/}" brew'
+
+brew install --cask linearmouse
+
+# Search in all files formats
+brew intall rga
+brew install pandoc poppler ffmpeg
+
 # Install some other useful utilities like `sponge`.
 brew install moreutils
 # Install GNU `find`, `locate`, `updatedb`, and `xargs`, `g`-prefixed.
@@ -23,7 +32,7 @@ brew install gnu-sed --with-default-names
 # Note: don’t forget to add `/usr/local/bin/bash` to `/etc/shells` before
 # running `chsh`.
 brew install bash
-brew install bash-completion2
+brew install bash-completion@2
 
 # Install more recent versions of some OS X tools.
 brew install wget
@@ -31,27 +40,30 @@ brew install vim
 brew install grep
 # brew install homebrew/dupes/openssh
 # brew install homebrew/dupes/screen
+brew install --cask sloth
 
-
-brew cask install caffeine
-brew cask install intellij
-brew cask install atom
-brew cask install bbedit
-brew cask install 1password
-brew cask install dropbox
-brew cask install chrome
-brew cask install expressvpn
-brew cask install transmission
-brew cask install microsoft-teams
-brew cask install mysqlworkbench
-brew cask install postman
-brew cask install adobe-acrobat-reader
-brew cask install drawio
-brew cask install bitbar
-brew cask install microsoft-remote-desktop-beta
-brew cask install steam
-brew cask install rectangle
+brew install --cask caffeine
+brew install --cask intellij-idea
+brew install --cask visual-studio-code
+brew install --cask bbedit
+brew install --cask 1password
+brew install --cask dropbox
+brew install --cask chromium
+brew install --cask expressvpn
+brew install --cask transmission
+brew install --cask microsoft-teams
+brew install --cask dbeaver-community
+# Find replacement for postman
+#brew install --cask postman
+brew install --cask adobe-acrobat-reader
+brew install --cask drawio
+brew install --cask bitbar
+brew install --cask microsoft-remote-desktop-beta
+brew install --cask steam
+brew install --cask rectangle
 brew install telegram
+#Semantic diffs
+brew install difftastic
 # Better quick preview for finder
 brew install --cask qlvideo
 # Touch bar customization NOT Working well
@@ -59,10 +71,13 @@ brew install --cask qlvideo
 # Desktop development
 brew install maven
 brew install awscli
-brew cask install remote-desktop-manager
+brew install --cask remote-desktop-manager
+brew tap jakehilborn/jakehilborn && brew install displayplacer
 # Web development
 brew install npm
 brew install bower
+
+curl -sLf https://spacevim.org/install.sh | bash
 
 #Testing
 
